@@ -69,10 +69,15 @@ p{
 
 .prezzo-verde{
     color: green;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 0.5rem;
 }
 
 .prezzo-vecchio{
     text-decoration: line-through;
+    font-size: 14px;
+    display: inline-block;
 }
 
 .sconto{
@@ -94,11 +99,25 @@ p{
 }
 
 .preferito{
-    font-size: 50px;
-    width: 100px;
-    height: 100px;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     position: absolute;
-    top: 5%;
-    left: 400px;
+    top: 15px;
+    right: 15px;
+    padding: 0;
+}
+
+.sostenibile2{
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
+    position: absolute;
+    top: 600px;
+    left: 0;
 }
